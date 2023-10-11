@@ -1,0 +1,89 @@
+.footer{
+    background: #656565;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 24px;
+    margin-left: 160px;
+}
+
+.footer .box-container .box{
+    padding: 32px;
+}
+
+.footer .box-container .box .h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.footer .box-container .box .text{
+    color: #eee;
+    font-size: 20.8px;
+    font-weight: normal;
+    line-height: 1.8;
+    padding-bottom: 16px;
+}
+
+.footer .box-container .box .icons{
+    padding: 16px 0;
+    
+}
+
+.footer .box-container .box .icons img {
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px;
+    border: 2px solid white;
+
+}
+
+.footer .box-container .box .icons img:hover{
+    background-color: black;
+    border:  2px solid  black;
+    cursor: pointer;
+    transform: translateY(-3%);
+    transition: 0.1s linear;
+    
+}
+
+.footer .box-container .box .info{
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 20px;
+}
+
+.footer .box-container .box .info h3{
+ display: block;
+ font-size: 24px;
+ margin: 24px 0;
+}
+
+
+.footer .box-container .box .info h3 i{
+    margin-right: 8px;
+    color: var(--green);
+}
+
+.footer .box-container .box .info h3:hover i{
+    padding-right: 10px;
+    color: #fff;
+    transition: 300ms all;
+}
+
+.footer .box-container .box .info h3:hover{
+    color: var(--green);
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+
+
